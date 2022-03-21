@@ -7,6 +7,7 @@
 # last name and print them in reverse order letter by letter
 # with a space between them.
 
+
 def word_reverser(value):
     values = list(value)
     return values[::-1]
