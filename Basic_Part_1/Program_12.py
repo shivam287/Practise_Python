@@ -12,4 +12,3 @@ if __name__ == "__main__":
     month = input("Please enter the Month: ")
     year = input("Please enter the Year: ")
     print(f"\nHere is your Calender:\n{calendar.month(int(year), int(month))}")
-    
