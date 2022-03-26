@@ -20,6 +20,7 @@ def Program_logic():
         if val % 2 == 0:
             values.append(val)
         elif val == 237:
+            print(val)  # Given in the Solution, So Adding here but not mentioned in the question.
             break
     return ", ".join(str(value) for value in values)
 
